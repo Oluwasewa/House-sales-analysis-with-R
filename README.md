@@ -58,7 +58,7 @@ cor(tx_data$sales, tx_data$volume)
 ggplot(tx_data, aes(x = sales, y = volume)) +
   geom_point() +
   stat_smooth(se = FALSE)
-
+  
 ``
 
 ## Build a regression model
